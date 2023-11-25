@@ -1,0 +1,78 @@
+body {
+	font-family: sans-serif;
+	color: #dddddd;
+	background-color: #1b1b1b;
+}
+
+li, h1, h2, h3, h4, h5, h6 { white-space: pre; }
+h1, h2, h3, h4, h5, h6 { text-align: center; }
+header { text-align: center; }
+header a { padding: 0; }
+header a h1 { color: tomato; }
+
+header a:hover h1 {
+	transform: scale(1.1);
+	transition: transform 0.3s;
+	text-decoration: none;
+	color: #f86;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+}
+
+footer { text-align: center; }
+
+a {
+	padding: 0.3em;
+	color: #3bf;
+	text-decoration: none;
+}
+
+a:hover { background-color: #345; }
+
+li { margin: 0.5em; }
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	/* text-align: center; */
+	/* counter-reset: Serial; */
+	border-collapse: collapse;
+}
+
+/* tr td:first-child:before { */
+/* 	counter-increment: Serial; */
+/* 	content: counter(Serial); */
+/* 	text-align: right; */
+/* } */
+
+table thead tr th {
+	border-bottom: 0.1em solid;
+	/* border-color: darkcyan; */
+	/* color: darkcyan; */
+	padding: 0.3em 0.5em;
+}
+
+/* table thead tr th:hover { */
+/* 	background-color: #333; */
+/* 	cursor: pointer; */
+/* } */
+
+table tbody tr td {
+	padding: 0.3em 0.5em;
+	border-bottom: 0.1em solid #333333;
+}
+
+.numeric {
+	font-family: "Fira Mono";
+	font-family: sans-serif;
+	text-align: right;
+}
+
+.name { word-break: keep-all; }
+.absent { color: #888; }
+.fail { color: #d77; }
+.pass { color: #7d7; }
+.pass td:last-child { font-weight: bold; }
