@@ -2,13 +2,19 @@ body {
 	font-family: sans-serif;
 	color: #dddddd;
 	background-color: #1b1b1b;
+	margin-bottom: 200px;
 }
 
-li, h1, h2, h3, h4, h5, h6 { white-space: pre; }
 h1, h2, h3, h4, h5, h6 { text-align: center; }
-header { text-align: center; }
-header a { padding: 0; }
-header a h1 { color: tomato; }
+
+header {
+	text-align: center;
+	padding: 1px;
+}
+
+header a h1 {
+	color: tomato;
+}
 
 header a:hover h1 {
 	transform: scale(1.1);
@@ -16,6 +22,12 @@ header a:hover h1 {
 	text-decoration: none;
 	color: #f86;
 }
+
+h1 { color: chocolate ; }
+h2 { color: sandybrown ; }
+h3 { color: tan ; }
+h4 { color: wheat ; }
+h5, h6 { color: cornsilk ; }
 
 main {
 	max-width: 800px;
@@ -25,14 +37,14 @@ main {
 footer { text-align: center; }
 
 a {
-	padding: 0.3em;
+	white-space: pre;
 	color: #3bf;
 	text-decoration: none;
 }
 
-a:hover { background-color: #345; }
-
 li { margin: 0.5em; }
+img { width: 100%; }
+li img { width: 1em; }
 
 table {
 	margin-left: auto;
@@ -64,6 +76,12 @@ table tbody tr td {
 	padding: 0.3em 0.5em;
 	border-bottom: 0.1em solid #333333;
 }
+
+.icon { width: 1em; }
+.menu a { padding: 0.3em; }
+.menu a:hover { background-color: #345; }
+.menu dt { padding-bottom: 0.2em; }
+.menu dd { padding-bottom: 1em; }
 
 .numeric {
 	font-family: "Fira Mono";

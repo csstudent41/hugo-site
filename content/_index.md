@@ -10,5 +10,5 @@ Here are some useful links for Vartak Students:-
 - [📝  Exam Results](results)
 - [🏫  College Website](https://avc.ac.in)
 
-## ![Under Construction](pics/under-construction-1.gif)
-## ![Construction Worker](pics/construction-worker-animation.gif)
+## ![Under Construction](pix/under-construction-1.gif)
+## ![Construction Worker](pix/construction-worker-animation.gif)
