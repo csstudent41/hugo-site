@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:csstudent41/csstudent41.github.io.git
+	url = ./public
 	branch = head

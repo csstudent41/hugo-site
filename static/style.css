@@ -1,39 +1,26 @@
 body {
-	font-family: sans-serif;
-	color: #dddddd;
 	background-color: #1b1b1b;
+	color: #dddddd;
+	font-family: 'Fira Sans', sans-serif;
 	margin-bottom: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 { text-align: center; }
-
-header {
-	text-align: center;
-	padding: 1px;
-}
-
-header a h1 {
-	color: tomato;
-}
-
+header { text-align: center; padding: 1px; }
+header a h1 { color: tomato; }
 header a:hover h1 {
 	transform: scale(1.1);
 	transition: transform 0.3s;
 	text-decoration: none;
 	color: #f86;
 }
-
 h1 { color: chocolate ; }
 h2 { color: sandybrown ; }
 h3 { color: tan ; }
 h4 { color: wheat ; }
 h5, h6 { color: cornsilk ; }
 
-main {
-	max-width: 800px;
-	margin: auto;
-}
-
+main { max-width: 800px; margin: auto; }
 footer { text-align: center; }
 
 a {
@@ -41,7 +28,6 @@ a {
 	color: #3bf;
 	text-decoration: none;
 }
-
 li { margin: 0.5em; }
 img { width: 100%; }
 li img { width: 1em; }
@@ -81,7 +67,7 @@ table tbody tr td {
 .menu a { padding: 0.3em; }
 .menu a:hover { background-color: #345; }
 .menu dt { padding-bottom: 0.2em; }
-.menu dd { padding-bottom: 1em; }
+.menu dd { padding-bottom: 1em; color: gray; }
 
 .numeric {
 	font-family: "Fira Mono";
